@@ -1,0 +1,206 @@
+﻿=== Documents/Fitness Tracker Project.docx ===
+Software Project Charter (PMBOK Aligned) 
+Project Name: Fitness Tracker
+Date:16 February 2026
+Project Sponsor: Osama Hamada 
+Project Manager: Mahmoud Ali 
+Version: 1.0
+1. Project Purpose / Justification
+The system tracks fitness for the users to calculate physical effort per distance and how many calories burned.
+Example:
+Adidas Fitness Tracker Application
+Nike Fitness Tracker Application
+MyFitnessPal Fitness Tracker Application
+Apple Fitness Tracker Application
+Expected Benefits:
+Body Recompose.
+Maintain Body Weight.
+Achieve the user goal.
+2. Measurable Project Objectives and Success Criteria
+Objective 1: Implement Website by 1 March 2026
+Objective 2: Achieve 95% system uptime.
+Success Criteria: System Tracks 95% user’s physical activity per day.
+3. High-Level Requirements
+Functional: Save users physical activity, recommend new goals and meals, calculate burned calories.
+Non-Functional:
+- System uptime ≥ 95%
+- Page load time < 5 seconds
+- User Validation
+4. High-Level Project Description and Boundaries
+Scope Includes:
+- User Registration
+- Meals Recommendation
+- Activity Alarm
+- Daily Reports.
+Out of Scope:
+- Hardware infrastructure replacement
+-Mobile Application
+-Payment System
+5. High-Level Risks
+Risk 1: Wrong calculation
+Risk 2: User Confliction
+Risk 3: Injures
+6. Summary Milestone Schedule
+Project Start: 16 February 2026
+Requirements Approval: 1 March 2026
+System Deployment: 15 March 2026
+Project Closure: 30 May 2026
+7. Summary Budget
+Estimated Budget:
+ $450,000
+Cost Breakdown:
+- Software License: $220,000
+- Private Training: $50,000
+- Implementation Services: $100,000
+- Contingency: $80,000
+Funding Source: Misr International University
+8. Key Stakeholders
+Sponsor: Nike
+Customers: Males and Females Athletes
+IT Department: Osama and Mahmoud Support Team
+External Vendor: O&M
+9. Project Approval Requirements
+UAT approval by IT Department
+Final approval by Project Sponsor after performance validation.
+10. Assigned Project Manager and Authority Level
+Project Manager has authority to allocate project budget up to $450,000.
+Authority to assign internal IT staff.
+Authority to approve change requests under $10,000.
+11. Assumptions and Constraints
+Assumptions: Vendor will deliver customization within agreed timeline.
+Constraints: Fixed budget of $450,000 and completion before Launch The website.
+12. Exit / Closure Criteria
+All deliverables accepted.
+System operational for 30 consecutive days without critical defect.
+Final report approved by sponsor.
+13. Signatures
+Project Sponsor: ___________Osama_________ Date: ____16/2______
+Project Manager: ____________Mahmoud ________ Date: ____16/2______
+Customer Representative: __________Ali__________ Date: ___20/3_______
+
+=== Documents/RTM.docx ===
+Requirement traceability matrix RTM
+Requirement No. | Name | Category | Source | Status
+R1 | Save users physical activity | Functional | Project Charter | Not Started Yet
+R2 | Recommend new goals | Functional | Project Charter | Not Started Yet
+R3 | Recommend meals | Functional | Project Charter | Not Started Yet
+R4 | Calculate burned calories | Functional | Project Charter | Not Started Yet
+R5 | User registration | Functional | Project Charter | Not Started Yet
+R6 | Activity alarm | Functional | Project Charter | Not Started Yet
+R7 | Daily reports | Functional | Project Charter | Not Started Yet
+R8 | System uptime ≥ 95% | Non-Functional | Project Charter | Not Started Yet
+R9 | Page load time < 5 seconds | Non-Functional | Project Charter | Not Started Yet
+R10 | User validation | Non-Functional | Project Charter | Not Started Yet
+
+=== Documents/Project Scope Baseline Fitness Tracker .docx ===
+Project Scope Baseline
+Project Name: Fitness tracker
+Date Prepared: 2/3/2026
+Prepared by: Osama Hamada / Mahmoud Aly
+1. Introduction
+This document defines the Scope Baseline for the Fitness Tracker System project. It formally describes the project scope and serves as a reference for scope management and change control throughout the project lifecycle.
+The Scope Baseline includes the Project Scope Statement, Work Breakdown Structure (WBS), and WBS Dictionary, ensuring alignment with the approved Project Charter.
+2. Project Scope Statement
+2.1. Project Justification
+With the growing global interest in health, fitness, and physical activity tracking, users increasingly rely on digital systems to monitor their workouts, calculate calories burned, and achieve fitness goals. Currently, many users lack a unified platform that accurately tracks physical effort per distance and provides meaningful feedback to improve health outcomes. The Fitness Tracker System is being developed to address this need by offering a web-based platform that tracks users’ physical activities, calculates burned calories, and supports goal achievement. The project aims to improve body composition, help users maintain healthy body weight, and support long-term fitness goals. Successful implementation of this project will enhance user engagement in fitness activities, provide reliable tracking of physical performance, and support healthier lifestyles while aligning with institutional goals.
+2.2. Product Scope Description
+The Fitness Tracker System will be a web-based application that allows users to register, log in, and track their daily physical activities. The system will calculate physical effort per distance, estimate calories burned, and generate daily activity reports. Users will also receive goal recommendations and meal suggestions to support their fitness objectives.
+The platform will include activity alarms and reminders to encourage consistent workouts. The system will focus on usability, performance, and reliability, ensuring that users can easily input and review their activity data through a responsive and intuitive interface.
+2.3. Project Deliverables
+ Functional Fitness Tracker Website: Fully deployed and operational web-based system.
+ User Registration & Authentication Module: Secure user access and validation.
+ Physical Activity Tracking Module: Recording distance, effort, and calories burned.
+ Meal & Goal Recommendation Module: Suggested meals and fitness goals.
+ Daily Activity Reports: Automatically generated fitness summaries.
+ System Documentation: Technical documentation and user guide.
+2.4. Project Exclusions
+ Mobile Application Development: Native Android or iOS apps are excluded.
+ Hardware Infrastructure Replacement: No hardware upgrades or device provisioning.
+ Payment System Integration: No subscriptions or online payments.
+ Wearable Device Integration: No smart device or sensor integration in this phase.
+2.5. Constraints
+2.6. Assumptions
+Users will manually input physical activity data.
+Vendor customization will be delivered within the agreed timeline.
+System requirements will remain stable after approval.
+Stakeholders will provide timely feedback during testing and UAT.
+Hosting infrastructure will support ≥95% system uptime.
+2.7. Project Acceptance Criteria
+The project will be considered successful and accepted when the following criteria are met:
+The website is implemented and operational by 1 March 2026.
+The system achieves at least 95% uptime.
+The system successfully tracks at least 95% of the user’s physical activity per day.
+Users can register and validate their accounts successfully.
+Users can save and view physical activity records.
+The system correctly calculates burned calories based on user activities.
+The system provides meal and goal recommendations.
+Daily reports are generated correctly.
+The system passes User Acceptance Testing (UAT).
+Final approval is granted by the project sponsor after performance validation.
+3. Work Breakdown Structure (WBS)
+1.0 Fitness Tracker System
+1.1 Project Management
+1.1.1 Project Planning & Control
+1.1.2 Resource & Budget Management
+1.1.3 Stakeholder Communication
+1.2 Requirements & Design
+1.2.1 Requirements Analysis
+1.2.2 System Architecture Design
+1.2.3 UI/UX Design
+1.3 System Development
+1.3.1 Backend Development
+1.3.2 User Registration & Validation
+1.3.3 Physical Activity Tracking Module
+1.3.4 Calories Calculation Engine
+1.3.5 Meal & Goal Recommendation Module
+1.4 Testing & Quality Assurance
+1.4.1 Test Planning
+1.4.2 Functional & Integration Testing
+1.4.3 User Acceptance Testing (UAT)
+1.5 Deployment & Closure
+1.5.1 System Deployment
+1.5.2 Monitoring & Stabilization
+1.5.3 Project Closure & Final Report
+4. WBS Dictionary
+1.1 Project Initiation
+This phase includes defining the project objectives, identifying all major stakeholders, and obtaining approval for the project charter. The main output is a formally approved project charter.
+1.2 Requirements Analysis
+This phase focuses on collecting and documenting all functional and non-functional requirements for the system. It also includes identifying the project boundaries and obtaining stakeholder approval for the requirements documentation.
+1.3 System Design
+This phase involves preparing the technical design of the system, including architecture, database schema, user interfaces, and reporting dashboards. The deliverable is a complete system design ready for implementation.
+1.4 Development
+This phase includes building all main system modules such as registration, validation, activity tracking, calorie calculation, meal recommendations, goal recommendations, alarms, and daily reports. The output is a fully developed web-based Fitness Tracker system.
+1.5 Testing
+This phase ensures that the system functions correctly and meets the required quality standards. It includes unit testing, integration testing, system testing, and UAT. The deliverable is a tested system approved by users and stakeholders.
+1.6 Deployment
+This phase includes preparing the hosting or deployment environment, publishing the website, and verifying that the system is accessible and functioning correctly in the live environment.
+1.7 Project Management and Closure
+This phase includes ongoing project monitoring, issue and risk management, cost and resource control, final handover, and official project closure. The deliverables are the final approved system and closure documentation.
+5. Approval and Sign-Off
+The project requires:
+UAT approval by the IT Department
+Final approval by the Project Sponsor after performance validation
+Link jira : 
+https://miuegypt-team-xbfy1qrs.atlassian.net/jira/software/c/projects/FT/boards/2?atlOrigin=eyJpIjoiMTAwZjgwMjUxNzE3NDVhM2FkMjFiZjhhMGJlODgzMzkiLCJwIjoiaiJ9
+Constraint Category | Description
+Schedule | Project must be completed before website launch, with final closure by 30 May 2026.
+Budget | Fixed budget of $450,000, cannot be exceeded.
+Resources | Limited to internal IT team and one external vendor (O&M).
+Technology | Web-based system only, no mobile or hardware dependencies.
+WBS Code | Element Name | Description of Work | Deliverable(s) | Estimated Hours | Acceptance Criteria
+1.1 | Project Management | Overseeing all project activities, including planning, execution, and closure, to ensure the project is delivered on time and within budget. | Project Plan, Status Reports, Budget Tracker | 200 | Project delivered within 10% of budget and schedule.
+1.1.1 | Project Planning & Scoping | Creation of all foundational project documents, including the project charter, scope baseline, and detailed project schedule. | Scope Baseline, Project Schedule | 60 | All documents approved by the project sponsor.
+1.2 | Requirements & Design | Defining the detailed functional and technical requirements of the platform and creating the complete system architecture and user interface design. | System Design Document, UI Prototypes | 300 | Design documents and prototypes approved by stakeholders.
+1.2.3 | UI/UX Wireframing & Prototyping | Creating low-fidelity wireframes and high-fidelity interactive prototypes for all user-facing pages of the platform. | Interactive Prototype, Style Guide | 120 | Prototype achieves a user satisfaction score of >85% in usability testing.
+1.3 | Platform Development | The core engineering work to build the backend and frontend of the Online Learning System platform, including all major user-facing modules. | Source Code for all Modules | 1200 | All code passes review with less than 5% rework.
+1.3.2 | User Authentication & Profile Management | Developing the system for user registration, login (email/password and social), and profile management. | Functional User Login & Profile System | 200 | Users can successfully register, log in, and update their profiles.
+1.4 | Feature Integration | Integrating key features such as the content management system, assessment engine, and payment processing into the core platform. | Integrated Platform Features | 500 | All features are fully functional and integrated without data loss.
+1.4.3 | Payment Gateway Integration | Integrating the Stripe API to handle course purchases, subscriptions, and instructor payouts securely. | Functional Payment System | 150 | System can process test transactions successfully and securely.
+1.5 | Testing & QA | Executing a comprehensive testing strategy to ensure the platform is robust, secure, and meets all requirements. | Test Reports, Bug Tracker | 400 | No critical or high-severity bugs in production.
+1.5.3 | System & UAT | End-to-end testing of the fully integrated system by the QA team and a select group of end-users. | UAT Sign-off Document | 100 | UAT completed with a 95% pass rate on test cases.
+1.6 | Deployment & Launch | Preparing the production environment, deploying the application, training users, and providing support during the launch phase. | Live Production Website | 250 | Successful deployment with less than 1 hour of downtime.
+1.6.4 | Go-Live & Post-Launch Support | Executing the final deployment to the live server and providing dedicated support for the first two weeks after launch. | Stable Production System, Support Log | 80 | Less than 10 critical support tickets in the first week.
+Role | Name | Signature | Date
+Project Manager | Mahmoud | Mahmoud | 12/3/2026
+Project Sponsor | Osama | Osama | 13/3/2026
+
