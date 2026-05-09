@@ -27,7 +27,12 @@ $remainMins    = $totalMinutes % 60;
         <div class="absolute top-0 right-0 w-64 h-64 rounded-full opacity-10" style="background:radial-gradient(circle,#14b8a6,transparent);transform:translate(30%,-30%);"></div>
         <div class="relative">
             <p class="text-brand-400 font-medium text-sm mb-1">👋 Welcome back,</p>
-            <h1 class="text-2xl font-bold text-white"><?php echo htmlspecialchars($_SESSION['user_name']); ?></h1>
+            <h1 class="text-2xl font-bold text-white">
+                <?php echo htmlspecialchars($_SESSION['user_name']); ?>
+                <?php if (isset($_SESSION['user_role']) && $_SESSION['user_role'] === 'admin'): ?>
+                    <span class="ml-2 text-xs font-semibold px-2 py-0.5 rounded-full bg-red-500/20 text-red-400 border border-red-500/30 align-middle">ADMIN</span>
+                <?php endif; ?>
+            </h1>
             <p class="text-slate-400 text-sm mt-1.5">
                 <?php if ($totalWorkouts == 0): ?>
                     Ready to start your fitness journey? Log your first workout below.
